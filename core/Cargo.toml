@@ -1,0 +1,7 @@
+[package]
+name = "king_core"   # Name changed to reflect it is a library
+version = "0.1.3"
+edition = "2021"     # Note: Stable Rust currently uses 2021; 2024 is in nightly/testing
+
+[dependencies]
+rand = "0.8.5"

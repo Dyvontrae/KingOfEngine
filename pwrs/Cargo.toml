@@ -1,0 +1,8 @@
+[package]
+name = "king_pwrs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# This links your powers logic directly to your core logic
+king_core = { path = "../core" }
